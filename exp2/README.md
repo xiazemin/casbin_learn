@@ -601,3 +601,9 @@ tree
 | |____adapter_filtered.go
 | |____watcher.go
 |____.travis.yml
+
+
+vi enforcer.go +338
+fmt.Println(parameters, e.model, expression)
+
+{map[r_act:2 r_env:3 r_obj:1 r_sub:0] [{Teacher Devin} {Factory Gate} Control 0x1400007ade0] map[p_obj,act:1 p_sub:0] []} map[e:map[e:0x140001122a0] m:map[m:0x140001123c0] p:map[p:0x140001121e0] r:map[r:0x14000112120]] r_sub.Role=='Teacher' && r_obj.Name=='School Gate' && r_act in('In','Out') && r_env.Time.Hour >7 && r_env.Time.Hour <= 18
